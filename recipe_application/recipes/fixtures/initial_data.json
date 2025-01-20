@@ -1,0 +1,1200 @@
+[
+  {
+    "model": "recipes.recipe",
+    "pk": 1,
+    "fields": {
+      "title": "Classic Caesar Salad",
+      "description": "A fresh and crispy Caesar salad with homemade dressing, crisp romaine lettuce, parmesan cheese, and crunchy croutons.",
+      "instructions": "Thoroughly wash the romaine lettuce leaves under cold running water and pat them completely dry with paper towels or a salad spinner.\nChop the crisp romaine leaves into bite-sized pieces, discarding any tough stems or damaged leaves.\nIn a large mixing bowl, prepare the dressing by combining 1/2 cup mayonnaise, 2-3 finely minced garlic cloves, 2 teaspoons anchovy paste, juice of one fresh lemon, and 1/4 cup freshly grated parmesan cheese until smooth and well blended.\nGently toss the chopped lettuce with the prepared dressing, ensuring each leaf is lightly coated but not swimming in dressing.\nSprinkle generously with additional freshly grated parmesan cheese and homemade or store-bought croutons.\nFinish with freshly cracked black pepper and serve immediately while the lettuce is still crisp.",
+      "cooking_time": 10,
+      "preparation_time": 15,
+      "total_time": 25,
+      "difficulty": "easy",
+      "servings": 4,
+      "serving_size": "1 bowl",
+      "calories_per_serving": 320,
+      "protein_per_serving": 8.0,
+      "is_vegetarian": false,
+      "is_gluten_free": false,
+      "image_url": "https://images.pexels.com/photos/1059905/pexels-photo-1059905.jpeg",
+      "cuisine": "italian",
+      "dietary_restrictions": [],
+      "nutrients": {
+        "carbohydrates": 15,
+        "fat": 28,
+        "fiber": 3
+      },
+      "is_featured": false,
+      "created_at": "2025-01-16T10:00:00Z",
+      "updated_at": "2025-01-16T10:00:00Z"
+    }
+  },
+  {
+    "model": "recipes.recipe",
+    "pk": 2,
+    "fields": {
+      "title": "Mushroom Risotto",
+      "description": "Creamy Italian risotto made with arborio rice, mushrooms, white wine, and parmesan cheese.",
+      "instructions": "Clean and slice fresh mushrooms, ensuring they're all roughly the same size for even cooking.\nIn a large saucepan, bring vegetable or chicken broth to a gentle simmer and keep warm throughout the cooking process.\nIn a separate heavy-bottomed pan, sauté the mushrooms in butter over medium-high heat until they release their moisture and turn golden brown, about 5-7 minutes.\nRemove mushrooms and set aside, then in the same pan, add a bit more butter and sauté finely diced onions until translucent.\nAdd Arborio rice to the pan and toast for 2-3 minutes until the edges become slightly translucent and the rice is coated in butter.\nPour in a splash of white wine and stir constantly until completely absorbed.\nBegin adding warm broth one ladle at a time, stirring constantly and waiting for each addition to be almost completely absorbed before adding more.\nContinue this process for about 18-20 minutes until the rice is creamy and al dente.\nReturn the sautéed mushrooms to the pan and fold in freshly grated parmesan cheese and a knob of butter.\nLet rest for 2 minutes, then serve immediately, garnished with additional parmesan and fresh herbs.",
+      "cooking_time": 35,
+      "preparation_time": 15,
+      "total_time": 50,
+      "difficulty": "medium",
+      "servings": 4,
+      "serving_size": "1 bowl",
+      "calories_per_serving": 450,
+      "protein_per_serving": 12.0,
+      "is_vegetarian": true,
+      "is_gluten_free": true,
+      "image_url": "https://images.pexels.com/photos/5638527/pexels-photo-5638527.jpeg",
+      "cuisine": "italian",
+      "dietary_restrictions": [
+        "vegetarian",
+        "gluten-free"
+      ],
+      "nutrients": {
+        "carbohydrates": 65,
+        "fat": 18,
+        "fiber": 4
+      },
+      "is_featured": false,
+      "created_at": "2025-01-16T10:00:00Z",
+      "updated_at": "2025-01-16T10:00:00Z"
+    }
+  },
+  {
+    "model": "recipes.recipe",
+    "pk": 3,
+    "fields": {
+      "title": "Spaghetti Carbonara",
+      "description": "Spaghetti Carbonara is a traditional Italian dish that features al dente spaghetti paired with a rich, creamy egg-based sauce. The sauce is made with eggs, grated Parmesan cheese, and crispy pancetta, which adds a salty, savory flavor. This dish is simple to make, yet indulgent, and is perfect for a comforting meal.",
+      "instructions": "Bring a large pot of generously salted water to a rolling boil.\nMeanwhile, cut pancetta into small cubes about 1/4 inch thick.\nIn a large mixing bowl, whisk together 3 whole eggs and 1 egg yolk with 1 cup freshly grated Pecorino Romano and Parmigiano-Reggiano cheese mixture until well combined.\nAdd freshly ground black pepper to the egg mixture and set aside.\nCook the spaghetti in the boiling water according to package instructions until al dente, reserving 1 cup of pasta cooking water before draining.\nWhile the pasta cooks, sauté the pancetta in a large skillet over medium heat until crispy and the fat has rendered, about 5-7 minutes.\nWorking quickly, add the hot drained pasta to the skillet with pancetta and toss to combine.\nRemove the skillet from heat and quickly stir in the egg and cheese mixture, tossing vigorously to coat the pasta and create a creamy sauce.\nAdd small splashes of reserved pasta water as needed to achieve desired consistency.\nServe immediately with additional grated cheese and freshly ground black pepper.",
+      "cooking_time": 20,
+      "preparation_time": 10,
+      "total_time": 30,
+      "difficulty": "easy",
+      "servings": 4,
+      "serving_size": "1 plate",
+      "calories_per_serving": 600,
+      "protein_per_serving": 25.0,
+      "is_vegetarian": false,
+      "is_gluten_free": false,
+      "image_url": "https://images.pexels.com/photos/1527603/pexels-photo-1527603.jpeg",
+      "cuisine": "italian",
+      "dietary_restrictions": [],
+      "nutrients": {
+        "carbohydrates": 75,
+        "fat": 20,
+        "fiber": 3
+      },
+      "is_featured": false,
+      "created_at": "2025-01-16T10:00:00Z",
+      "updated_at": "2025-01-16T10:00:00Z"
+    }
+  },
+  {
+    "model": "recipes.recipe",
+    "pk": 4,
+    "fields": {
+      "title": "Chicken Tikka Masala",
+      "description": "Chicken Tikka Masala is a beloved Indian dish made by marinating tender chicken pieces in a blend of aromatic spices, then cooking them in a rich, creamy tomato-based sauce. The combination of the smoky grilled chicken and the spiced gravy makes this dish an irresistible delight, often served with basmati rice or naan.",
+      "instructions": "For the marinade, combine Greek yogurt, ginger paste, garlic paste, turmeric, garam masala, cumin, and red chili powder in a large bowl.\nCut chicken breasts into 1.5-inch cubes and coat thoroughly with the marinade mixture.\nCover and refrigerate for at least 4 hours or overnight for best results.\nPreheat your grill or broiler to high heat.\nThread marinated chicken onto skewers and grill for 12-15 minutes, turning occasionally, until charred on the edges and cooked through.\nFor the sauce, heat ghee or oil in a large pot over medium heat.\nSauté finely diced onions until golden brown, about 8-10 minutes.\nAdd minced garlic and ginger, cooking until fragrant.\nStir in tomato puree, garam masala, paprika, and cumin, cooking until oil separates from the sauce.\nPour in heavy cream and simmer until the sauce thickens.\nAdd the grilled chicken pieces to the sauce and simmer for an additional 5-7 minutes.\nAdjust seasoning with salt and add a pat of butter for extra richness.\nGarnish with fresh cilantro and serve hot with naan bread or rice.",
+      "cooking_time": 40,
+      "preparation_time": 20,
+      "total_time": 60,
+      "difficulty": "medium",
+      "servings": 4,
+      "serving_size": "1 bowl",
+      "calories_per_serving": 550,
+      "protein_per_serving": 30.0,
+      "is_vegetarian": false,
+      "is_gluten_free": true,
+      "image_url": "https://images.pexels.com/photos/2474661/pexels-photo-2474661.jpeg",
+      "cuisine": "indian",
+      "dietary_restrictions": [
+        "gluten-free"
+      ],
+      "nutrients": {
+        "carbohydrates": 40,
+        "fat": 25,
+        "fiber": 5
+      },
+      "is_featured": true,
+      "created_at": "2025-01-16T10:00:00Z",
+      "updated_at": "2025-01-16T10:00:00Z"
+    }
+  },
+  {
+    "model": "recipes.recipe",
+    "pk": 5,
+    "fields": {
+      "title": "Beef Tacos",
+      "description": "Beef Tacos are a popular Mexican dish featuring seasoned ground beef, crisp lettuce, cheese, and your favorite taco toppings, all wrapped in a warm tortilla. These tacos are a perfect balance of savory, crunchy, and creamy flavors, and are ideal for a quick weeknight meal.",
+      "instructions": "Heat a large skillet over medium-high heat and add a tablespoon of oil.\nAdd finely diced onions and cook until softened and translucent, about 5 minutes.\nAdd minced garlic and cook until fragrant, about 30 seconds.\nAdd ground beef to the skillet, breaking it up with a wooden spoon into small chunks.\nSeason the beef with a homemade taco seasoning mix of chili powder, ground cumin, paprika, garlic powder, onion powder, oregano, salt, and black pepper.\nCook the beef mixture until well-browned and completely cooked through, about 8-10 minutes.\nDrain excess fat if desired, but leave some for flavor.\nWhile the meat cooks, prepare your toppings: shred lettuce, dice tomatoes, grate cheese, and slice fresh avocados.\nWarm your tortillas either in a dry skillet, directly over a gas flame, or wrapped in damp paper towels in the microwave.\nAssemble tacos by placing a generous portion of seasoned beef in each warm tortilla.\nTop with shredded lettuce, diced tomatoes, grated cheese, and any additional desired toppings.\nServe immediately with lime wedges, fresh salsa, and sour cream on the side.",
+      "cooking_time": 20,
+      "preparation_time": 10,
+      "total_time": 30,
+      "difficulty": "easy",
+      "servings": 6,
+      "serving_size": "2 tacos",
+      "calories_per_serving": 400,
+      "protein_per_serving": 20.0,
+      "is_vegetarian": false,
+      "is_gluten_free": false,
+      "image_url": "https://images.pexels.com/photos/2092507/pexels-photo-2092507.jpeg",
+      "cuisine": "mexican",
+      "dietary_restrictions": [],
+      "nutrients": {
+        "carbohydrates": 35,
+        "fat": 18,
+        "fiber": 4
+      },
+      "is_featured": false,
+      "created_at": "2025-01-16T10:00:00Z",
+      "updated_at": "2025-01-16T10:00:00Z"
+    }
+  },
+  {
+    "model": "recipes.recipe",
+    "pk": 6,
+    "fields": {
+      "title": "Vegetable Stir Fry",
+      "description": "A colorful and nutritious dish, Vegetable Stir Fry combines a variety of vegetables cooked quickly in a hot pan, preserving their crunch and nutrients. The savory sauce made from soy sauce, garlic, and ginger elevates the flavors, making this dish both healthy and flavorful.",
+      "instructions": "Begin by preparing all vegetables: julienne carrots into thin strips, cut bell peppers into thin slices, trim snow peas, cut broccoli into small florets, and slice mushrooms.\nMake the stir-fry sauce by combining soy sauce, vegetable broth, cornstarch, sesame oil, rice vinegar, and a touch of honey in a small bowl.\nHeat a wok or large skillet over high heat until very hot, then add vegetable oil and swirl to coat.\nAdd minced garlic and grated ginger to the hot oil and stir-fry for 30 seconds until fragrant.\nAdd vegetables in order of cooking time: start with carrots and broccoli, stir-fry for 2 minutes.\nAdd bell peppers and mushrooms, continuing to stir-fry for another 2 minutes.\nAdd snow peas and any other quick-cooking vegetables, tossing constantly.\nPour the prepared sauce around the edges of the wok and toss everything together until the sauce thickens and coats all vegetables evenly.\nTest vegetables for desired tenderness - they should be crisp-tender.\nFinish with a drizzle of sesame oil and a sprinkle of sesame seeds.\nServe immediately over steamed rice or noodles while the vegetables are still crisp.",
+      "cooking_time": 15,
+      "preparation_time": 10,
+      "total_time": 25,
+      "difficulty": "easy",
+      "servings": 4,
+      "serving_size": "1 bowl",
+      "calories_per_serving": 200,
+      "protein_per_serving": 8.0,
+      "is_vegetarian": true,
+      "is_gluten_free": true,
+      "image_url": "https://images.pexels.com/photos/1640774/pexels-photo-1640774.jpeg",
+      "cuisine": "chinese",
+      "dietary_restrictions": [
+        "vegetarian",
+        "gluten-free"
+      ],
+      "nutrients": {
+        "carbohydrates": 25,
+        "fat": 10,
+        "fiber": 5
+      },
+      "is_featured": false,
+      "created_at": "2025-01-16T10:00:00Z",
+      "updated_at": "2025-01-16T10:00:00Z"
+    }
+  },
+  {
+    "model": "recipes.recipe",
+    "pk": 7,
+    "fields": {
+      "title": "Vegetable Soup",
+      "description": "Vegetable Soup is a heartwarming dish made with fresh vegetables like carrots, potatoes, and celery, cooked in a savory vegetable stock. Perfect for a cold day, this soup is comforting, full of fiber, and low in calories.",
+      "instructions": "Begin by heating olive oil in a large pot over medium heat.\nAdd diced onions, celery, and carrots (mirepoix) to the pot and cook until the onions are translucent and vegetables begin to soften, about 5-7 minutes.\nStir in minced garlic and cook until fragrant, about 1 minute.\nAdd diced potatoes, chopped tomatoes, and any other hearty vegetables you're using.\nPour in vegetable stock and add bay leaves, dried thyme, and a bundle of fresh parsley stems tied together.\nBring the soup to a boil, then reduce heat and simmer, partially covered, for about 15 minutes.\nAdd green beans, zucchini, or any quick-cooking vegetables and continue to simmer for another 5-7 minutes.\nSeason with salt and freshly ground black pepper to taste.\nStir in fresh herbs like chopped parsley or dill.\nTaste and adjust seasoning as needed, adding a splash of lemon juice for brightness if desired.\nLet the soup rest for 5 minutes before serving to allow flavors to meld.\nServe hot, garnished with additional fresh herbs and crusty bread on the side.",
+      "cooking_time": 25,
+      "preparation_time": 10,
+      "total_time": 35,
+      "difficulty": "easy",
+      "servings": 4,
+      "serving_size": "1 bowl",
+      "calories_per_serving": 150,
+      "protein_per_serving": 5.0,
+      "is_vegetarian": true,
+      "is_gluten_free": true,
+      "image_url": "https://images.pexels.com/photos/539451/pexels-photo-539451.jpeg",
+      "cuisine": "american",
+      "dietary_restrictions": [
+        "vegetarian",
+        "gluten-free"
+      ],
+      "nutrients": {
+        "carbohydrates": 30,
+        "fat": 2,
+        "fiber": 6
+      },
+      "is_featured": false,
+      "created_at": "2025-01-16T10:00:00Z",
+      "updated_at": "2025-01-16T10:00:00Z"
+    }
+  },
+  {
+    "model": "recipes.recipe",
+    "pk": 8,
+    "fields": {
+      "title": "Grilled Cheese Sandwich",
+      "description": "The Grilled Cheese Sandwich is a classic American comfort food. It's made by placing cheese between slices of buttered bread and grilling until golden brown and crispy. The melted cheese and toasted bread create the perfect balance of textures and flavors.",
+      "instructions": "Select good melting cheese like cheddar, Gruyere, or American cheese and let it come to room temperature.\nButter one side of each bread slice generously, ensuring even coverage right to the edges.\nHeat a heavy-bottomed skillet or griddle over medium-low heat.\nPlace one slice of bread butter-side down in the skillet.\nLayer your room temperature cheese on the bread, keeping a small border around the edges.\nAdd any optional extras like thin tomato slices or crispy bacon if desired.\nTop with the second slice of bread, butter-side up.\nCook until the bottom bread is golden brown and crispy, about 3-4 minutes.\nCarefully flip the sandwich using a spatula, pressing down gently to ensure even contact with the pan.\nContinue cooking until the second side is golden brown and the cheese is completely melted and gooey.\nIf the bread is browning too quickly before the cheese melts, lower the heat and cover the pan briefly.\nTransfer to a cutting board and let rest for 1 minute before slicing diagonally.\nServe immediately while the cheese is still hot and stretchy.",
+      "cooking_time": 10,
+      "preparation_time": 5,
+      "total_time": 15,
+      "difficulty": "easy",
+      "servings": 2,
+      "serving_size": "1 sandwich",
+      "calories_per_serving": 300,
+      "protein_per_serving": 10.0,
+      "is_vegetarian": true,
+      "is_gluten_free": false,
+      "image_url": "https://images.pexels.com/photos/1647163/pexels-photo-1647163.jpeg",
+      "cuisine": "american",
+      "dietary_restrictions": [
+        "vegetarian"
+      ],
+      "nutrients": {
+        "carbohydrates": 30,
+        "fat": 12,
+        "fiber": 2
+      },
+      "is_featured": false,
+      "created_at": "2025-01-16T10:00:00Z",
+      "updated_at": "2025-01-16T10:00:00Z"
+    }
+  },
+  {
+    "model": "recipes.recipe",
+    "pk": 9,
+    "fields": {
+      "title": "American Cheeseburger",
+      "description": "An all-time American favorite, this cheeseburger features a juicy beef patty topped with melted cheese, lettuce, tomato, and your choice of condiments, all between a toasted bun.",
+      "instructions": "Remove ground beef from refrigerator 30 minutes before cooking to come to room temperature.\nGently divide the beef into equal portions and form into patties slightly larger than your buns, making a shallow dimple in the center with your thumb.\nSeason both sides generously with salt and freshly ground black pepper.\nPreheat your grill or griddle to high heat until very hot.\nMeanwhile, prepare your toppings: slice tomatoes, onions, and pickles, and wash and dry lettuce leaves.\nToast the burger buns until golden brown, either on the grill or in a separate pan.\nPlace the patties on the hot grill or griddle and do not move them for 3-4 minutes.\nFlip the burgers only once and cook for an additional 2-3 minutes for medium doneness.\nAdd cheese slices during the last minute of cooking and cover briefly to melt if needed.\nAssemble burgers by adding condiments to the toasted buns, then the patty with melted cheese.\nLayer on lettuce, tomato, onion, and pickles in your preferred order.\nServe immediately while hot, accompanied by french fries or coleslaw.",
+      "cooking_time": 15,
+      "preparation_time": 10,
+      "total_time": 25,
+      "difficulty": "easy",
+      "servings": 4,
+      "serving_size": "1 burger",
+      "calories_per_serving": 700,
+      "protein_per_serving": 35.0,
+      "is_vegetarian": false,
+      "is_gluten_free": false,
+      "image_url": "https://images.pexels.com/photos/1633578/pexels-photo-1633578.jpeg",
+      "cuisine": "american",
+      "dietary_restrictions": [],
+      "nutrients": {
+        "carbohydrates": 50,
+        "fat": 40,
+        "fiber": 3
+      },
+      "is_featured": false,
+      "created_at": "2025-01-19T12:00:00Z",
+      "updated_at": "2025-01-19T12:00:00Z"
+    }
+  },
+  {
+    "model": "recipes.recipe",
+    "pk": 10,
+    "fields": {
+      "title": "Sushi Rolls",
+      "description": "Traditional Japanese sushi rolls made with seasoned sushi rice, fresh fish, and crisp vegetables, rolled in nori seaweed sheets.",
+      "instructions": "Rinse sushi rice in cold water until the water runs clear, then cook according to package instructions.\nWhile rice is still hot, season with a mixture of rice vinegar, sugar, and salt, folding gently to combine.\nAllow the seasoned rice to cool to room temperature, fanning it to help it dry slightly.\nPrepare your fillings by slicing fish, vegetables, and other ingredients into thin, uniform strips.\nPlace a sheet of nori shiny side down on a bamboo rolling mat.\nWet your hands with vinegar water and spread about 3/4 cup of rice evenly over the nori, leaving a 1-inch strip bare at the top edge.\nArrange your fillings in a line across the center of the rice.\nUsing the bamboo mat, roll the bottom edge up and over the fillings, tucking it in firmly.\nContinue rolling, applying even pressure to create a tight cylinder.\nSeal the edge with a few grains of rice or a little water.\nLet the roll rest for 5 minutes, then using a very sharp knife, cut into 6-8 pieces.\nWipe the knife clean with a damp cloth between each cut.\nArrange on a plate and serve with wasabi, pickled ginger, and soy sauce.",
+      "cooking_time": 30,
+      "preparation_time": 20,
+      "total_time": 50,
+      "difficulty": "medium",
+      "servings": 4,
+      "serving_size": "6 pieces",
+      "calories_per_serving": 400,
+      "protein_per_serving": 20.0,
+      "is_vegetarian": false,
+      "is_gluten_free": true,
+      "image_url": "https://images.pexels.com/photos/357756/pexels-photo-357756.jpeg",
+      "cuisine": "japanese",
+      "dietary_restrictions": [
+        "gluten-free"
+      ],
+      "nutrients": {
+        "carbohydrates": 45,
+        "fat": 10,
+        "fiber": 2
+      },
+      "is_featured": false,
+      "created_at": "2025-01-19T12:00:00Z",
+      "updated_at": "2025-01-19T12:00:00Z"
+    }
+  },
+  {
+    "model": "recipes.recipe",
+    "pk": 11,
+    "fields": {
+      "title": "Thai Green Curry",
+      "description": "A fragrant Thai dish made with a creamy coconut milk base, green curry paste, and a mix of vegetables and chicken, served over jasmine rice.",
+      "instructions": "Start by heating coconut oil in a large wok or deep skillet over medium heat.\nAdd green curry paste and sauté until fragrant, about 2-3 minutes, stirring constantly to prevent burning.\nAdd a splash of coconut milk and stir until the oil separates and rises to the surface.\nAdd chicken pieces and cook until they start to turn white on the outside.\nPour in the remaining coconut milk and bring to a gentle simmer.\nAdd fish sauce, palm sugar, and kaffir lime leaves if using.\nAdd firmer vegetables like eggplant and bamboo shoots first, simmering for 5-7 minutes.\nAdd softer vegetables like bell peppers and snap peas in the last 3-4 minutes of cooking.\nCheck that chicken is cooked through and vegetables are tender-crisp.\nTaste and adjust seasoning with additional fish sauce, palm sugar, or lime juice as needed.\nStir in Thai basil leaves and remove from heat.\nLet stand for 5 minutes to allow flavors to meld.\nServe hot over jasmine rice, garnished with fresh Thai basil and sliced red chilies.",
+      "cooking_time": 35,
+      "preparation_time": 15,
+      "total_time": 50,
+      "difficulty": "medium",
+      "servings": 4,
+      "serving_size": "1 bowl",
+      "calories_per_serving": 450,
+      "protein_per_serving": 28.0,
+      "is_vegetarian": false,
+      "is_gluten_free": true,
+      "image_url": "https://images.pexels.com/photos/2097090/pexels-photo-2097090.jpeg",
+      "cuisine": "thai",
+      "dietary_restrictions": [
+        "gluten-free"
+      ],
+      "nutrients": {
+        "carbohydrates": 40,
+        "fat": 20,
+        "fiber": 4
+      },
+      "is_featured": false,
+      "created_at": "2025-01-19T12:00:00Z",
+      "updated_at": "2025-01-19T12:00:00Z"
+    }
+  },
+  {
+    "model": "recipes.recipe",
+    "pk": 12,
+    "fields": {
+      "title": "Greek Salad",
+      "description": "A refreshing Mediterranean salad with crisp vegetables, kalamata olives, and feta cheese.",
+      "instructions": "Start with room temperature vegetables for the best flavor.\nCut cucumbers into thick half-moons, removing any seedy parts if desired.\nSlice tomatoes into wedges or thick chunks, keeping them fairly large.\nThinly slice red onion and soak in cold water for 10 minutes to reduce sharpness if desired.\nCut bell peppers into chunks similar in size to the cucumbers.\nDrain and pat dry the kalamata olives.\nCut feta cheese into large cubes or leave as a single thick slice to place on top.\nIn a small bowl, whisk together extra virgin olive oil, red wine vinegar, dried oregano, and a pinch of salt and pepper.\nIn a large bowl, combine cucumbers, tomatoes, drained red onions, bell peppers, and olives.\nDrizzle with the prepared dressing and toss gently to combine.\nPlace feta cheese on top and sprinkle with additional oregano.\nFinish with a final drizzle of extra virgin olive oil and a few grinds of black pepper.\nServe immediately at room temperature with crusty bread to soak up the dressing.",
+      "cooking_time": 0,
+      "preparation_time": 15,
+      "total_time": 15,
+      "difficulty": "easy",
+      "servings": 4,
+      "serving_size": "1 bowl",
+      "calories_per_serving": 280,
+      "protein_per_serving": 8.0,
+      "is_vegetarian": true,
+      "is_gluten_free": true,
+      "image_url": "https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg",
+      "cuisine": "greek",
+      "dietary_restrictions": [
+        "vegetarian",
+        "gluten-free"
+      ],
+      "nutrients": {
+        "carbohydrates": 12,
+        "fat": 24,
+        "fiber": 4
+      },
+      "is_featured": false,
+      "created_at": "2025-01-19T12:00:00Z",
+      "updated_at": "2025-01-19T12:00:00Z"
+    }
+  },
+  {
+    "model": "recipes.recipe",
+    "pk": 13,
+    "fields": {
+      "title": "French Onion Soup",
+      "description": "Classic French onion soup topped with crusty bread and melted Gruyere cheese.",
+      "instructions": "Peel and thinly slice 6-8 large onions into uniform half-moons.\nMelt butter with olive oil in a large, heavy-bottomed pot over medium heat.\nAdd sliced onions and a pinch of salt, stirring to coat with butter and oil.\nReduce heat to medium-low and cook onions for 45-60 minutes, stirring occasionally, until deeply caramelized and golden brown.\nAdd minced garlic and fresh thyme in the last few minutes of caramelizing.\nDeglaze the pot with a splash of white wine, scraping up all the flavorful brown bits.\nAdd beef stock, a bay leaf, and a splash of Worcestershire sauce.\nBring to a simmer and cook for 20-30 minutes to allow flavors to meld.\nMeanwhile, slice a baguette into thick pieces and toast until crispy.\nLadle the hot soup into oven-safe bowls placed on a baking sheet.\nTop each bowl with toasted baguette slices and a generous amount of grated Gruyere cheese.\nPlace under the broiler until cheese is melted, bubbly, and lightly browned.\nServe carefully, as bowls will be extremely hot, garnished with fresh thyme if desired.",
+      "cooking_time": 60,
+      "preparation_time": 20,
+      "total_time": 80,
+      "difficulty": "medium",
+      "servings": 6,
+      "serving_size": "1 bowl",
+      "calories_per_serving": 320,
+      "protein_per_serving": 12.0,
+      "is_vegetarian": false,
+      "is_gluten_free": false,
+      "image_url": "https://images.pexels.com/photos/539451/pexels-photo-539451.jpeg",
+      "cuisine": "french",
+      "dietary_restrictions": [],
+      "nutrients": {
+        "carbohydrates": 28,
+        "fat": 18,
+        "fiber": 3
+      },
+      "is_featured": false,
+      "created_at": "2025-01-19T12:00:00Z",
+      "updated_at": "2025-01-19T12:00:00Z"
+    }
+  },
+  {
+    "model": "recipes.recipe",
+    "pk": 14,
+    "fields": {
+      "title": "Pad Thai",
+      "description": "Traditional Thai stir-fried rice noodles with shrimp, tofu, eggs, and peanuts.",
+      "instructions": "Place rice noodles in a large bowl and cover with warm water, letting them soak for 20-30 minutes until they become pliable but still firm.\nPrepare the pad thai sauce by combining 3 tablespoons fish sauce, 3 tablespoons palm sugar (or brown sugar), 2 tablespoons tamarind paste, and a pinch of chili flakes.\nHeat 2 tablespoons of oil in a large wok over medium-high heat and cook peeled shrimp until they turn pink and slightly curled, about 2-3 minutes.\nAdd cubed firm tofu to the wok and cook until lightly golden on all sides.\nPush ingredients to one side of the wok and crack eggs into the empty space, scrambling them gently until just set.\nDrain the soaked noodles and add them to the wok, followed immediately by the prepared sauce.\nToss everything together, making sure the noodles are evenly coated with sauce and start to soften further.\nAdd a handful of fresh bean sprouts and chopped garlic chives, tossing quickly to combine.\nServe immediately, garnishing each plate with crushed peanuts, extra bean sprouts, lime wedges, and chili flakes to taste.",
+      "cooking_time": 20,
+      "preparation_time": 20,
+      "total_time": 40,
+      "difficulty": "medium",
+      "servings": 4,
+      "serving_size": "1 plate",
+      "calories_per_serving": 480,
+      "protein_per_serving": 22.0,
+      "is_vegetarian": false,
+      "is_gluten_free": true,
+      "image_url": "https://images.pexels.com/photos/1640772/pexels-photo-1640772.jpeg",
+      "cuisine": "thai",
+      "dietary_restrictions": [
+        "gluten-free"
+      ],
+      "nutrients": {
+        "carbohydrates": 65,
+        "fat": 16,
+        "fiber": 4
+      },
+      "is_featured": false,
+      "created_at": "2025-01-19T12:00:00Z",
+      "updated_at": "2025-01-19T12:00:00Z"
+    }
+  },
+  {
+    "model": "recipes.recipe",
+    "pk": 15,
+    "fields": {
+      "title": "Chocolate Chip Cookies",
+      "description": "Classic homemade chocolate chip cookies with crispy edges and soft centers.",
+      "instructions": "Begin by bringing butter to room temperature and preheating your oven to 375°F (190°C).\nIn a large bowl, cream together 1 cup softened butter with 3/4 cup granulated sugar and 3/4 cup packed brown sugar until the mixture becomes light and fluffy, about 3-4 minutes.\nBeat in 2 large eggs one at a time, ensuring each is fully incorporated before adding the next.\nStir in 2 teaspoons of pure vanilla extract until well combined.\nIn a separate bowl, whisk together 2 1/4 cups all-purpose flour, 1 teaspoon baking soda, and 1/2 teaspoon salt.\nGradually fold the dry ingredients into the wet mixture, being careful not to overmix.\nGently stir in 2 cups of semi-sweet chocolate chips until evenly distributed throughout the dough.\nLine baking sheets with parchment paper and drop rounded tablespoons of dough about 2 inches apart.\nBake in the preheated oven for exactly 12 minutes, or until the edges are lightly golden but the centers still look slightly soft.\nLet cookies cool on the baking sheet for 5 minutes before transferring to a wire rack to cool completely.",
+      "cooking_time": 12,
+      "preparation_time": 15,
+      "total_time": 27,
+      "difficulty": "easy",
+      "servings": 24,
+      "serving_size": "1 cookie",
+      "calories_per_serving": 150,
+      "protein_per_serving": 2.0,
+      "is_vegetarian": true,
+      "is_gluten_free": false,
+      "image_url": "https://images.pexels.com/photos/230325/pexels-photo-230325.jpeg",
+      "cuisine": "american",
+      "dietary_restrictions": [
+        "vegetarian"
+      ],
+      "nutrients": {
+        "carbohydrates": 22,
+        "fat": 7,
+        "fiber": 1
+      },
+      "is_featured": false,
+      "created_at": "2025-01-19T12:00:00Z",
+      "updated_at": "2025-01-19T12:00:00Z"
+    }
+  },
+  {
+    "model": "recipes.recipe",
+    "pk": 16,
+    "fields": {
+      "title": "Beef Pho",
+      "description": "Vietnamese beef noodle soup with aromatic broth, rice noodles, and fresh herbs.",
+      "instructions": "Start by charring onions and ginger directly over an open flame or under the broiler until blackened and fragrant.\nIn a large stockpot, combine beef bones, charred aromatics, star anise, cinnamon sticks, coriander seeds, and fennel seeds.\nAdd cold water and bring to a boil, then reduce heat and simmer for at least 3 hours, skimming off any impurities that rise to the surface.\nMeanwhile, slice beef as thinly as possible while it's still partially frozen for easier cutting.\nSoak rice noodles in warm water for 20-30 minutes until they become pliable.\nStrain the broth through a fine-mesh sieve lined with cheesecloth and season with fish sauce and rock sugar to taste.\nCook the soaked noodles in boiling water until just tender, then divide among serving bowls.\nArrange raw beef slices over the noodles and ladle hot broth directly over them to cook.\nServe immediately with a platter of fresh herbs (Thai basil, cilantro, mint), bean sprouts, lime wedges, and sliced chilies.",
+      "cooking_time": 180,
+      "preparation_time": 30,
+      "total_time": 210,
+      "difficulty": "hard",
+      "servings": 6,
+      "serving_size": "1 bowl",
+      "calories_per_serving": 420,
+      "protein_per_serving": 25.0,
+      "is_vegetarian": false,
+      "is_gluten_free": true,
+      "image_url": "https://images.pexels.com/photos/1731535/pexels-photo-1731535.jpeg",
+      "cuisine": "vietnamese",
+      "dietary_restrictions": [
+        "gluten-free"
+      ],
+      "nutrients": {
+        "carbohydrates": 50,
+        "fat": 12,
+        "fiber": 3
+      },
+      "is_featured": false,
+      "created_at": "2025-01-19T12:00:00Z",
+      "updated_at": "2025-01-19T12:00:00Z"
+    }
+  },
+  {
+    "model": "recipes.recipe",
+    "pk": 17,
+    "fields": {
+      "title": "Margherita Pizza",
+      "description": "Classic Italian pizza with fresh tomatoes, mozzarella, and basil.",
+      "instructions": "Begin by preparing the pizza dough at least 2 hours before baking, combining flour, yeast, salt, and warm water until a smooth dough forms.\nPlace the dough in a lightly oiled bowl, cover with a damp cloth, and let rise in a warm place until doubled in size, about 1-2 hours.\nPreheat your oven to its highest setting (ideally 500°F/260°C) with a pizza stone or heavy baking sheet inside.\nPrepare the tomato sauce by blending high-quality canned San Marzano tomatoes with a pinch of salt and fresh basil.\nTear fresh mozzarella into small pieces and let drain on paper towels to remove excess moisture.\nOnce dough has risen, divide into portions and gently stretch each one by hand into a thin circle, being careful not to tear the dough.\nTransfer the shaped dough onto a piece of parchment paper dusted with semolina flour.\nSpread a thin layer of tomato sauce leaving a 1-inch border for the crust.\nArrange torn mozzarella pieces evenly across the pizza and drizzle with extra virgin olive oil.\nCarefully slide the pizza with parchment onto the preheated stone and bake until the crust is charred and the cheese is bubbling.\nFinish with fresh basil leaves and an additional drizzle of olive oil immediately after removing from the oven.",
+      "cooking_time": 15,
+      "preparation_time": 120,
+      "total_time": 135,
+      "difficulty": "medium",
+      "servings": 4,
+      "serving_size": "2 slices",
+      "calories_per_serving": 350,
+      "protein_per_serving": 14.0,
+      "is_vegetarian": true,
+      "is_gluten_free": false,
+      "image_url": "https://images.pexels.com/photos/825661/pexels-photo-825661.jpeg",
+      "cuisine": "italian",
+      "dietary_restrictions": [
+        "vegetarian"
+      ],
+      "nutrients": {
+        "carbohydrates": 45,
+        "fat": 14,
+        "fiber": 2
+      },
+      "is_featured": false,
+      "created_at": "2025-01-19T12:00:00Z",
+      "updated_at": "2025-01-19T12:00:00Z"
+    }
+  },
+  {
+    "model": "recipes.recipe",
+    "pk": 18,
+    "fields": {
+      "title": "Falafel Wrap",
+      "description": "Middle Eastern chickpea patties wrapped in flatbread with tahini sauce and vegetables.",
+      "instructions": "Soak dried chickpeas overnight in cold water, then drain and pat completely dry.\nIn a food processor, combine soaked chickpeas with finely chopped onion, garlic, fresh parsley, cilantro, cumin, coriander, and salt.\nPulse until the mixture is finely ground but not pureed, scraping down the sides as needed.\nAdd baking soda and let the mixture rest in the refrigerator for at least 1 hour to allow flavors to meld.\nShape the mixture into small balls or patties using wet hands to prevent sticking.\nHeat vegetable oil in a deep pot to 350°F (175°C).\nCarefully fry the falafel in batches until deeply golden brown and crispy on all sides, about 3-4 minutes.\nWarm flatbreads briefly on a dry skillet until soft and pliable.\nSpread each flatbread with a generous layer of hummus and tahini sauce.\nPlace crispy falafel in the center, then top with diced tomatoes, sliced cucumber, pickled turnips, and fresh herbs.\nDrizzle with additional tahini sauce and hot sauce if desired.\nRoll up tightly, tucking in the sides as you go, and serve immediately while the falafel is still hot and crispy.",
+      "cooking_time": 20,
+      "preparation_time": 30,
+      "total_time": 50,
+      "difficulty": "medium",
+      "servings": 4,
+      "serving_size": "1 wrap",
+      "calories_per_serving": 380,
+      "protein_per_serving": 12.0,
+      "is_vegetarian": true,
+      "is_gluten_free": false,
+      "image_url": "https://images.pexels.com/photos/1618955/pexels-photo-1618955.jpeg",
+      "cuisine": "middle eastern",
+      "dietary_restrictions": [
+        "vegetarian"
+      ],
+      "nutrients": {
+        "carbohydrates": 52,
+        "fat": 16,
+        "fiber": 8
+      },
+      "is_featured": false,
+      "created_at": "2025-01-19T12:00:00Z",
+      "updated_at": "2025-01-19T12:00:00Z"
+    }
+  },
+  {
+    "model": "recipes.recipe",
+    "pk": 19,
+    "fields": {
+      "title": "Beef Stroganoff",
+      "description": "Russian dish of sautéed beef in a sour cream mushroom sauce served over egg noodles.",
+      "instructions": "Slice beef tenderloin or sirloin against the grain into thin strips, then season generously with salt and black pepper.\nClean and slice mushrooms, dice onions, and mince garlic cloves.\nHeat a large heavy-bottomed skillet over high heat until very hot, then add vegetable oil.\nWorking in batches to avoid overcrowding, sear the beef strips until browned but still medium-rare inside, about 1 minute per side.\nTransfer the beef to a plate and reduce heat to medium.\nIn the same pan, add butter and sauté mushrooms until they release their moisture and turn golden brown.\nAdd diced onions and cook until softened and translucent, then stir in minced garlic until fragrant.\nSprinkle flour over the vegetables and cook for 1-2 minutes, stirring constantly.\nGradually whisk in beef broth and bring to a simmer, scraping up any browned bits from the bottom of the pan.\nStir in Dijon mustard and simmer until the sauce begins to thicken.\nReduce heat to low and stir in sour cream until well combined.\nReturn the beef and any accumulated juices to the pan, heating just until warmed through.\nServe immediately over hot buttered egg noodles, garnished with chopped fresh parsley.",
+      "cooking_time": 30,
+      "preparation_time": 20,
+      "total_time": 50,
+      "difficulty": "medium",
+      "servings": 6,
+      "serving_size": "1 bowl",
+      "calories_per_serving": 520,
+      "protein_per_serving": 32.0,
+      "is_vegetarian": false,
+      "is_gluten_free": false,
+      "image_url": "https://images.pexels.com/photos/675951/pexels-photo-675951.jpeg",
+      "cuisine": "russian",
+      "dietary_restrictions": [],
+      "nutrients": {
+        "carbohydrates": 42,
+        "fat": 28,
+        "fiber": 3
+      },
+      "is_featured": false,
+      "created_at": "2025-01-19T12:00:00Z",
+      "updated_at": "2025-01-19T12:00:00Z"
+    }
+  },
+  {
+    "model": "recipes.recipe",
+    "pk": 20,
+    "fields": {
+      "title": "Bibimbap",
+      "description": "Korean mixed rice bowl topped with vegetables, meat, egg, and gochujang sauce.",
+      "instructions": "Begin by preparing the rice in a rice cooker or on the stovetop until perfectly cooked and fluffy.\nMarinate thinly sliced beef in a mixture of soy sauce, sesame oil, garlic, and ginger for at least 30 minutes.\nPrepare various vegetables: julienne carrots, slice mushrooms, trim and blanch spinach, and cut zucchini into matchsticks.\nSeason each vegetable separately and sauté individually in a small amount of oil until just cooked but still crisp.\nSqueeze excess moisture from the blanched spinach and season with sesame oil, garlic, and salt.\nHeat oil in a pan and cook the marinated beef until browned and cooked through.\nPrepare the gochujang sauce by mixing Korean red chili paste with sesame oil, sugar, and rice vinegar.\nFry eggs sunny-side up, keeping the yolks runny.\nWarm your serving bowls and place a portion of hot rice in the bottom of each.\nArrange the cooked vegetables and beef in separate sections around the rice, creating a colorful presentation.\nPlace a fried egg in the center of each bowl.\nServe immediately with gochujang sauce on the side, instructing diners to mix everything together thoroughly before eating.",
+      "cooking_time": 30,
+      "preparation_time": 25,
+      "total_time": 55,
+      "difficulty": "medium",
+      "servings": 4,
+      "serving_size": "1 bowl",
+      "calories_per_serving": 480,
+      "protein_per_serving": 22.0,
+      "is_vegetarian": false,
+      "is_gluten_free": true,
+      "image_url": "https://images.pexels.com/photos/2347311/pexels-photo-2347311.jpeg",
+      "cuisine": "korean",
+      "dietary_restrictions": [
+        "gluten-free"
+      ],
+      "nutrients": {
+        "carbohydrates": 65,
+        "fat": 18,
+        "fiber": 6
+      },
+      "is_featured": false,
+      "created_at": "2025-01-19T12:00:00Z",
+      "updated_at": "2025-01-19T12:00:00Z"
+    }
+  },
+
+
+
+
+
+
+
+
+
+
+  {
+    "model": "recipes.ingredient",
+    "pk": 1,
+    "fields": {
+      "name": "Romaine Lettuce",
+      "image_url": "vegetables",
+      "created_at": "2025-01-16T10:00:00Z",
+      "updated_at": "2025-01-16T10:00:00Z"
+    }
+  },
+  {
+    "model": "recipes.ingredient",
+    "pk": 2,
+    "fields": {
+      "name": "Parmesan Cheese",
+      "image_url": "dairy",
+      "created_at": "2025-01-16T10:00:00Z",
+      "updated_at": "2025-01-16T10:00:00Z"
+    }
+  },
+  {
+    "model": "recipes.ingredient",
+    "pk": 3,
+    "fields": {
+      "name": "Croutons",
+      "image_url": "bread",
+      "created_at": "2025-01-16T10:00:00Z",
+      "updated_at": "2025-01-16T10:00:00Z"
+    }
+  },
+  {
+    "model": "recipes.ingredient",
+    "pk": 4,
+    "fields": {
+      "name": "Arborio Rice",
+      "image_url": "grains",
+      "created_at": "2025-01-16T10:00:00Z",
+      "updated_at": "2025-01-16T10:00:00Z"
+    }
+  },
+  {
+    "model": "recipes.ingredient",
+    "pk": 5,
+    "fields": {
+      "name": "Mushrooms",
+      "image_url": "vegetables",
+      "created_at": "2025-01-16T10:00:00Z",
+      "updated_at": "2025-01-16T10:00:00Z"
+    }
+  },
+  {
+    "model": "recipes.ingredient",
+    "pk": 6,
+    "fields": {
+      "name": "Chicken Breast",
+      "image_url": "meat",
+      "created_at": "2025-01-16T10:00:00Z",
+      "updated_at": "2025-01-16T10:00:00Z"
+    }
+  },
+  {
+    "model": "recipes.ingredient",
+    "pk": 7,
+    "fields": {
+      "name": "Coconut Milk",
+      "image_url": "dairy",
+      "created_at": "2025-01-16T10:00:00Z",
+      "updated_at": "2025-01-16T10:00:00Z"
+    }
+  },
+  {
+    "model": "recipes.ingredient",
+    "pk": 8,
+    "fields": {
+      "name": "Green Curry Paste",
+      "image_url": "condiments",
+      "created_at": "2025-01-16T10:00:00Z",
+      "updated_at": "2025-01-16T10:00:00Z"
+    }
+  },
+  {
+    "model": "recipes.ingredient",
+    "pk": 9,
+    "fields": {
+      "name": "Ground Beef",
+      "image_url": "meat",
+      "created_at": "2025-01-16T10:00:00Z",
+      "updated_at": "2025-01-16T10:00:00Z"
+    }
+  },
+  {
+    "model": "recipes.ingredient",
+    "pk": 10,
+    "fields": {
+      "name": "Tortillas",
+      "image_url": "bread",
+      "created_at": "2025-01-16T10:00:00Z",
+      "updated_at": "2025-01-16T10:00:00Z"
+    }
+  },
+  {
+    "model": "recipes.ingredient",
+    "pk": 11,
+    "fields": {
+      "name": "Rice Noodles",
+      "image_url": "pasta",
+      "created_at": "2025-01-16T10:00:00Z",
+      "updated_at": "2025-01-16T10:00:00Z"
+    }
+  },
+  {
+    "model": "recipes.ingredient",
+    "pk": 12,
+    "fields": {
+      "name": "Soy Sauce",
+      "image_url": "condiments",
+      "created_at": "2025-01-16T10:00:00Z",
+      "updated_at": "2025-01-16T10:00:00Z"
+    }
+  },
+  {
+    "model": "recipes.ingredient",
+    "pk": 13,
+    "fields": {
+      "name": "Fish Sauce",
+      "image_url": "condiments",
+      "created_at": "2025-01-16T10:00:00Z",
+      "updated_at": "2025-01-16T10:00:00Z"
+    }
+  },
+  {
+    "model": "recipes.ingredient",
+    "pk": 14,
+    "fields": {
+      "name": "Tofu",
+      "image_url": "protein",
+      "created_at": "2025-01-16T10:00:00Z",
+      "updated_at": "2025-01-16T10:00:00Z"
+    }
+  },
+  {
+    "model": "recipes.ingredient",
+    "pk": 15,
+    "fields": {
+      "name": "Bean Sprouts",
+      "image_url": "vegetables",
+      "created_at": "2025-01-16T10:00:00Z",
+      "updated_at": "2025-01-16T10:00:00Z"
+    }
+  },
+  {
+    "model": "recipes.ingredient",
+    "pk": 16,
+    "fields": {
+      "name": "Eggs",
+      "image_url": "dairy",
+      "created_at": "2025-01-16T10:00:00Z",
+      "updated_at": "2025-01-16T10:00:00Z"
+    }
+  },
+  {
+    "model": "recipes.ingredient",
+    "pk": 17,
+    "fields": {
+      "name": "Cucumber",
+      "image_url": "vegetables",
+      "created_at": "2025-01-16T10:00:00Z",
+      "updated_at": "2025-01-16T10:00:00Z"
+    }
+  },
+  {
+    "model": "recipes.ingredient",
+    "pk": 18,
+    "fields": {
+      "name": "Tomatoes",
+      "image_url": "vegetables",
+      "created_at": "2025-01-16T10:00:00Z",
+      "updated_at": "2025-01-16T10:00:00Z"
+    }
+  },
+  {
+    "model": "recipes.ingredient",
+    "pk": 19,
+    "fields": {
+      "name": "Feta Cheese",
+      "image_url": "dairy",
+      "created_at": "2025-01-16T10:00:00Z",
+      "updated_at": "2025-01-16T10:00:00Z"
+    }
+  },
+  {
+    "model": "recipes.ingredient",
+    "pk": 20,
+    "fields": {
+      "name": "Kalamata Olives",
+      "image_url": "vegetables",
+      "created_at": "2025-01-16T10:00:00Z",
+      "updated_at": "2025-01-16T10:00:00Z"
+    }
+  },
+
+
+
+
+
+
+  {
+    "model": "recipes.recipeingredient",
+    "pk": 1,
+    "fields": {
+      "recipe": 1,
+      "ingredient": 1,
+      "quantity": 2,
+      "unit": "head"
+    }
+  },
+  {
+    "model": "recipes.recipeingredient",
+    "pk": 2,
+    "fields": {
+      "recipe": 1,
+      "ingredient": 2,
+      "quantity": 100,
+      "unit": "grams"
+    }
+  },
+  {
+    "model": "recipes.recipeingredient",
+    "pk": 3,
+    "fields": {
+      "recipe": 1,
+      "ingredient": 3,
+      "quantity": 200,
+      "unit": "grams"
+    }
+  },
+  {
+    "model": "recipes.recipeingredient",
+    "pk": 4,
+    "fields": {
+      "recipe": 2,
+      "ingredient": 4,
+      "quantity": 300,
+      "unit": "grams"
+    }
+  },
+  {
+    "model": "recipes.recipeingredient",
+    "pk": 5,
+    "fields": {
+      "recipe": 2,
+      "ingredient": 5,
+      "quantity": 250,
+      "unit": "grams"
+    }
+  },
+  {
+    "model": "recipes.recipeingredient",
+    "pk": 6,
+    "fields": {
+      "recipe": 2,
+      "ingredient": 2,
+      "quantity": 50,
+      "unit": "grams"
+    }
+  },
+  {
+    "model": "recipes.recipeingredient",
+    "pk": 7,
+    "fields": {
+      "recipe": 3,
+      "ingredient": 16,
+      "quantity": 4,
+      "unit": "piece"
+    }
+  },
+  {
+    "model": "recipes.recipeingredient",
+    "pk": 8,
+    "fields": {
+      "recipe": 3,
+      "ingredient": 2,
+      "quantity": 100,
+      "unit": "grams"
+    }
+  },
+  {
+    "model": "recipes.recipeingredient",
+    "pk": 9,
+    "fields": {
+      "recipe": 4,
+      "ingredient": 6,
+      "quantity": 500,
+      "unit": "grams"
+    }
+  },
+  {
+    "model": "recipes.recipeingredient",
+    "pk": 10,
+    "fields": {
+      "recipe": 4,
+      "ingredient": 7,
+      "quantity": 400,
+      "unit": "ml"
+    }
+  },
+  {
+    "model": "recipes.recipeingredient",
+    "pk": 11,
+    "fields": {
+      "recipe": 4,
+      "ingredient": 8,
+      "quantity": 2,
+      "unit": "tablespoon"
+    }
+  },
+  {
+    "model": "recipes.recipeingredient",
+    "pk": 12,
+    "fields": {
+      "recipe": 5,
+      "ingredient": 9,
+      "quantity": 500,
+      "unit": "grams"
+    }
+  },
+  {
+    "model": "recipes.recipeingredient",
+    "pk": 13,
+    "fields": {
+      "recipe": 5,
+      "ingredient": 10,
+      "quantity": 12,
+      "unit": "piece"
+    }
+  },
+  {
+    "model": "recipes.recipeingredient",
+    "pk": 14,
+    "fields": {
+      "recipe": 12,
+      "ingredient": 17,
+      "quantity": 2,
+      "unit": "piece"
+    }
+  },
+  {
+    "model": "recipes.recipeingredient",
+    "pk": 15,
+    "fields": {
+      "recipe": 12,
+      "ingredient": 18,
+      "quantity": 4,
+      "unit": "piece"
+    }
+  },
+  {
+    "model": "recipes.recipeingredient",
+    "pk": 16,
+    "fields": {
+      "recipe": 6,
+      "ingredient": 17,
+      "quantity": 1,
+      "unit": "piece"
+    }
+  },
+  {
+    "model": "recipes.recipeingredient",
+    "pk": 17,
+    "fields": {
+      "recipe": 6,
+      "ingredient": 18,
+      "quantity": 2,
+      "unit": "piece"
+    }
+  },
+  {
+    "model": "recipes.recipeingredient",
+    "pk": 18,
+    "fields": {
+      "recipe": 7,
+      "ingredient": 17,
+      "quantity": 2,
+      "unit": "piece"
+    }
+  },
+  {
+    "model": "recipes.recipeingredient",
+    "pk": 19,
+    "fields": {
+      "recipe": 7,
+      "ingredient": 18,
+      "quantity": 3,
+      "unit": "piece"
+    }
+  },
+  {
+    "model": "recipes.recipeingredient",
+    "pk": 20,
+    "fields": {
+      "recipe": 8,
+      "ingredient": 2,
+      "quantity": 100,
+      "unit": "grams"
+    }
+  },
+  {
+    "model": "recipes.recipeingredient",
+    "pk": 21,
+    "fields": {
+      "recipe": 9,
+      "ingredient": 9,
+      "quantity": 200,
+      "unit": "grams"
+    }
+  },
+  {
+    "model": "recipes.recipeingredient",
+    "pk": 22,
+    "fields": {
+      "recipe": 10,
+      "ingredient": 11,
+      "quantity": 300,
+      "unit": "grams"
+    }
+  },
+  {
+    "model": "recipes.recipeingredient",
+    "pk": 23,
+    "fields": {
+      "recipe": 11,
+      "ingredient": 6,
+      "quantity": 400,
+      "unit": "grams"
+    }
+  },
+  {
+    "model": "recipes.recipeingredient",
+    "pk": 24,
+    "fields": {
+      "recipe": 11,
+      "ingredient": 7,
+      "quantity": 400,
+      "unit": "ml"
+    }
+  },
+  {
+    "model": "recipes.recipeingredient",
+    "pk": 25,
+    "fields": {
+      "recipe": 13,
+      "ingredient": 2,
+      "quantity": 150,
+      "unit": "grams"
+    }
+  },
+  {
+    "model": "recipes.recipeingredient",
+    "pk": 26,
+    "fields": {
+      "recipe": 14,
+      "ingredient": 11,
+      "quantity": 250,
+      "unit": "grams"
+    }
+  },
+  {
+    "model": "recipes.recipeingredient",
+    "pk": 27,
+    "fields": {
+      "recipe": 14,
+      "ingredient": 14,
+      "quantity": 200,
+      "unit": "grams"
+    }
+  },
+  {
+    "model": "recipes.recipeingredient",
+    "pk": 28,
+    "fields": {
+      "recipe": 15,
+      "ingredient": 16,
+      "quantity": 2,
+      "unit": "piece"
+    }
+  },
+  {
+    "model": "recipes.recipeingredient",
+    "pk": 29,
+    "fields": {
+      "recipe": 16,
+      "ingredient": 9,
+      "quantity": 500,
+      "unit": "grams"
+    }
+  },
+  {
+    "model": "recipes.recipeingredient",
+    "pk": 30,
+    "fields": {
+      "recipe": 17,
+      "ingredient": 18,
+      "quantity": 3,
+      "unit": "piece"
+    }
+  },
+  {
+    "model": "recipes.recipeingredient",
+    "pk": 31,
+    "fields": {
+      "recipe": 17,
+      "ingredient": 2,
+      "quantity": 200,
+      "unit": "grams"
+    }
+  },
+  {
+    "model": "recipes.recipeingredient",
+    "pk": 32,
+    "fields": {
+      "recipe": 18,
+      "ingredient": 14,
+      "quantity": 300,
+      "unit": "grams"
+    }
+  },
+  {
+    "model": "recipes.recipeingredient",
+    "pk": 33,
+    "fields": {
+      "recipe": 19,
+      "ingredient": 9,
+      "quantity": 500,
+      "unit": "grams"
+    }
+  },
+  {
+    "model": "recipes.recipeingredient",
+    "pk": 34,
+    "fields": {
+      "recipe": 19,
+      "ingredient": 5,
+      "quantity": 200,
+      "unit": "grams"
+    }
+  },
+  {
+    "model": "recipes.recipeingredient",
+    "pk": 35,
+    "fields": {
+      "recipe": 20,
+      "ingredient": 16,
+      "quantity": 4,
+      "unit": "piece"
+    }
+  }
+]
